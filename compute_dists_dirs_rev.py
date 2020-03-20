@@ -4,6 +4,8 @@ import models
 from util import util
 import glob
 
+print('test')
+
 parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('-d0','--dir0', type=str, default='./imgs/ex_dir0')
 parser.add_argument('-d1','--dir1', type=str, default='./imgs/ex_dir1')
